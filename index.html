@@ -244,8 +244,37 @@
     <!-- Courses section send -->
     <!-- Register section start -->
     <section class="register-section">
-      <div class="container">
-        
+      <div class="container bg-info">
+        <div class="row d-flex align-items-center justify-content-center text-white">
+          <div class="col-7 p-5">
+            <h2>Ready To Join</h2>
+            <p>Are you ready to join our course? Then, hit the register button to complete your registration</p>
+          </div>
+          <div class="col-5 p-5 text-center">
+            <!--Button trigger modal start-->
+            <button type="button" class="btn bg-white text-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Now</button>
+            <!--Button trigger modal end-->
+            <!--Modal start-->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="staticBackdropLabel">Get 20% Discount</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-dark">
+                    <h5>"edTech20%" Put this cuppon code when you fill registration form to get 20% discount</h5>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Ok</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Modal end-->
+          </div>
+        </div>
       </div>
     </section>
     <!-- Register section end -->
